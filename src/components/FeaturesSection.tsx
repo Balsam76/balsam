@@ -45,18 +45,18 @@ export default function FeaturesSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="md:col-span-2 mb-12">
+        <div className="grid grid-cols-2 gap-6 md:gap-8">
+          <div className="col-span-2 mb-12">
             <div className="relative">
               <img 
                 src="https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg?auto=compress&cs=tinysrgb&w=1200&h=400&fit=crop" 
                 alt="Mental wellness and self-care concept" 
-                className="w-full h-48 sm:h-64 object-cover rounded-2xl shadow-lg"
+                className="w-full h-40 sm:h-64 object-cover rounded-2xl shadow-lg"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-sky-600/80 to-emerald-600/80 rounded-2xl flex items-center justify-center">
                 <div className="text-center text-white">
-                  <h3 className="text-2xl sm:text-3xl font-bold mb-2">Your Mental Health Matters</h3>
-                  <p className="text-lg opacity-90">Take the first step towards better well-being</p>
+                  <h3 className="text-xl sm:text-3xl font-bold mb-1 sm:mb-2">Your Mental Health Matters</h3>
+                  <p className="text-sm sm:text-lg opacity-90">Take the first step towards better well-being</p>
                 </div>
               </div>
             </div>
