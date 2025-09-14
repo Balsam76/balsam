@@ -11,11 +11,10 @@ export default function Header({ mobileMenuOpen, setMobileMenuOpen }: HeaderProp
     <header className="bg-white/95 backdrop-blur-sm shadow-sm fixed w-full top-0 z-50 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <div className="flex items-center space-x-3">
-            <img src="/balsam-logo.png" alt="Balsam logo" className="h-10 w-10 object-contain rounded" />
-            <span className="text-2xl font-bold bg-gradient-to-r from-sky-600 to-emerald-600 bg-clip-text text-transparent">
-              Balsam
-            </span>
+          <div className="flex items-center">
+            <a href="/" className="flex items-center" aria-label="Balsam Home">
+              <img src="/balsam-logo.png" alt="Balsam" className="h-10 w-10 sm:h-11 sm:w-11 md:h-12 md:w-12 object-contain" />
+            </a>
           </div>
           
           <nav className="hidden md:flex space-x-8">
