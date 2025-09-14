@@ -28,7 +28,7 @@ export default function Header({ mobileMenuOpen, setMobileMenuOpen }: HeaderProp
             <a href="#download" className="text-gray-600 hover:text-sky-600 transition-colors duration-200 font-medium">
               Download
             </a>
-            <a href="#contact" className="text-gray-600 hover:text-sky-600 transition-colors duration-200 font-medium">
+            <a href="/contact.html" className="text-gray-600 hover:text-sky-600 transition-colors duration-200 font-medium">
               Contact
             </a>
           </nav>
@@ -60,7 +60,7 @@ export default function Header({ mobileMenuOpen, setMobileMenuOpen }: HeaderProp
           <a href="#download" className="block text-gray-600 hover:text-sky-600 transition-colors duration-200 font-medium">
             Download
           </a>
-          <a href="#contact" className="block text-gray-600 hover:text-sky-600 transition-colors duration-200 font-medium">
+          <a href="/contact.html" className="block text-gray-600 hover:text-sky-600 transition-colors duration-200 font-medium">
             Contact
           </a>
         </nav>
