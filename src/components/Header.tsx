@@ -13,7 +13,7 @@ export default function Header({ mobileMenuOpen, setMobileMenuOpen }: HeaderProp
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <a href="/" className="flex items-center" aria-label="Balsam Home">
-              <img src="/balsam-logo.png" alt="Balsam" className="h-10 w-10 sm:h-11 sm:w-11 md:h-12 md:w-12 object-contain" />
+              <img src="/balsam-logo.png" alt="Balsam" className="h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 object-contain" />
             </a>
           </div>
           
