@@ -22,29 +22,29 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-6">الدعم</h3>
+            <h3 className="text-lg font-semibold mb-6">Support</h3>
             <div className="space-y-4">
-              <a href="mailto:support@balsamapp.com" className="block text-gray-300 hover:text-white transition-colors duration-200">
-                تواصل معنا
+              <a href="mailto:support@balsamapp.com?subject=Balsam%20Website%20Contact" className="block text-gray-300 hover:text-white transition-colors duration-200">
+                Contact Us
               </a>
             </div>
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-6">القانونية</h3>
+            <h3 className="text-lg font-semibold mb-6">Legal</h3>
             <div className="space-y-4">
               <a href="/privacy-policy.html" className="block text-gray-300 hover:text-white transition-colors duration-200">
-                سياسة الخصوصية
+                Privacy Policy
               </a>
               <a href="/terms-of-service.html" className="block text-gray-300 hover:text-white transition-colors duration-200">
-                شروط الخدمة
+                Terms of Service
               </a>
-              {/* روابط غير جاهزة حالياً */}
+              {/* Not ready yet */}
               {/* <a href="#" className="block text-gray-300 hover:text-white transition-colors duration-200"> */}
-              {/*   سياسة ملفات تعريف الارتباط */}
+              {/*   Cookie Policy */}
               {/* </a> */}
               {/* <a href="#" className="block text-gray-300 hover:text-white transition-colors duration-200"> */}
-              {/*   الامتثال للائحة حماية البيانات الأوروبية (GDPR) */}
+              {/*   GDPR Compliance */}
               {/* </a> */}
             </div>
           </div>
