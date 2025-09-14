@@ -39,13 +39,12 @@ export default function Footer() {
               <a href="/terms-of-service.html" className="block text-gray-300 hover:text-white transition-colors duration-200">
                 Terms of Service
               </a>
-              {/* Not ready yet */}
-              {/* <a href="#" className="block text-gray-300 hover:text-white transition-colors duration-200"> */}
-              {/*   Cookie Policy */}
-              {/* </a> */}
-              {/* <a href="#" className="block text-gray-300 hover:text-white transition-colors duration-200"> */}
-              {/*   GDPR Compliance */}
-              {/* </a> */}
+              <a href="/subprocessors.html" className="block text-gray-300 hover:text-white transition-colors duration-200">
+                Subprocessors
+              </a>
+              <a href="/dpa.html" className="block text-gray-300 hover:text-white transition-colors duration-200">
+                Data Processing Agreement (DPA)
+              </a>
             </div>
           </div>
         </div>
