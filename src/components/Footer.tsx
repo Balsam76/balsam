@@ -24,7 +24,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-6">Support</h3>
             <div className="space-y-4">
-              <a href="mailto:support@balsamapp.com?subject=Balsam%20Website%20Contact" className="block text-gray-300 hover:text-white transition-colors duration-200">
+              <a href="/contact.html" className="block text-gray-300 hover:text-white transition-colors duration-200">
                 Contact Us
               </a>
             </div>
