@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 interface HeaderProps {
   mobileMenuOpen: boolean;
@@ -12,9 +12,7 @@ export default function Header({ mobileMenuOpen, setMobileMenuOpen }: HeaderProp
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-3">
-            <div className="p-2 bg-gradient-to-br from-sky-100 to-emerald-100 rounded-full">
-              <Heart className="h-6 w-6 text-sky-600" />
-            </div>
+            <img src="/balsam-logo.png" alt="Balsam logo" className="h-10 w-10 object-contain rounded" />
             <span className="text-2xl font-bold bg-gradient-to-r from-sky-600 to-emerald-600 bg-clip-text text-transparent">
               Balsam
             </span>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Mail, Phone, MapPin } from 'lucide-react';
+import { Heart } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -19,52 +19,33 @@ export default function Footer() {
               Your trusted companion for mental wellness. We're here to support your journey 
               towards better mental health with privacy, security, and care.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="p-2 bg-gray-800 hover:bg-gray-700 rounded-full transition-colors duration-200">
-                <Mail className="h-5 w-5" />
-              </a>
-              <a href="#" className="p-2 bg-gray-800 hover:bg-gray-700 rounded-full transition-colors duration-200">
-                <Phone className="h-5 w-5" />
-              </a>
-              <a href="#" className="p-2 bg-gray-800 hover:bg-gray-700 rounded-full transition-colors duration-200">
-                <MapPin className="h-5 w-5" />
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-6">الدعم</h3>
+            <div className="space-y-4">
+              <a href="mailto:support@balsamapp.com" className="block text-gray-300 hover:text-white transition-colors duration-200">
+                تواصل معنا
               </a>
             </div>
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-6">Support</h3>
+            <h3 className="text-lg font-semibold mb-6">القانونية</h3>
             <div className="space-y-4">
-              <a href="#" className="block text-gray-300 hover:text-white transition-colors duration-200">
-                Help Center
+              <a href="/privacy-policy.html" className="block text-gray-300 hover:text-white transition-colors duration-200">
+                سياسة الخصوصية
               </a>
-              <a href="#" className="block text-gray-300 hover:text-white transition-colors duration-200">
-                Contact Us
+              <a href="/terms-of-service.html" className="block text-gray-300 hover:text-white transition-colors duration-200">
+                شروط الخدمة
               </a>
-              <a href="#" className="block text-gray-300 hover:text-white transition-colors duration-200">
-                Crisis Resources
-              </a>
-              <a href="#" className="block text-gray-300 hover:text-white transition-colors duration-200">
-                FAQ
-              </a>
-            </div>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-semibold mb-6">Legal</h3>
-            <div className="space-y-4">
-              <a href="#" className="block text-gray-300 hover:text-white transition-colors duration-200">
-                Privacy Policy
-              </a>
-              <a href="#" className="block text-gray-300 hover:text-white transition-colors duration-200">
-                Terms of Service
-              </a>
-              <a href="#" className="block text-gray-300 hover:text-white transition-colors duration-200">
-                Cookie Policy
-              </a>
-              <a href="#" className="block text-gray-300 hover:text-white transition-colors duration-200">
-                GDPR Compliance
-              </a>
+              {/* روابط غير جاهزة حالياً */}
+              {/* <a href="#" className="block text-gray-300 hover:text-white transition-colors duration-200"> */}
+              {/*   سياسة ملفات تعريف الارتباط */}
+              {/* </a> */}
+              {/* <a href="#" className="block text-gray-300 hover:text-white transition-colors duration-200"> */}
+              {/*   الامتثال للائحة حماية البيانات الأوروبية (GDPR) */}
+              {/* </a> */}
             </div>
           </div>
         </div>
